@@ -12,5 +12,55 @@
 }
 .itemdiv1 {
   margin: 1vh 1vw;
-  height: inherit;
+  height: 70%;
+}
+.lefttriangle {
+  height: 30%;
+  color: white;
+  width: 100%;
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:5vh auto;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin:3vh auto;
+}
+.avatar {
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  border: 5px white solid;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  transform: translatey(-10px);
+  animation: float 6s ease-in-out infinite;
+}
+.avatar img {
+  width: 100%;
+  height: auto;
+}
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-10px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
 }
