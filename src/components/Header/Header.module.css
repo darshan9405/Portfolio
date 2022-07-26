@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap");
+.header-row {
+  padding: 2vh 2vw;
+  /* background-color: rgb(34, 255, 0); */
+  color: black;
+}
+.arrangement {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Cormorant SC", serif;
+}
+.imgStyle {
+  width: 20%;
+  height: inherit;
+}
+
+.col {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}

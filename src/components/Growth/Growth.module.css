@@ -1,0 +1,16 @@
+.growthCard {
+  /* padding: 1vh 5vw; */
+  padding: 1vh 1vw;
+  margin-bottom: 1vh;
+  border: 2px solid rgb(238, 238, 238);
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #ebd8d8;
+  width: 95%;
+  height: 90vh;
+  margin: 5vh auto;
+  background-color: rgb(0, 0, 0);
+}
+.itemdiv1 {
+  margin: 1vh 1vw;
+  height: inherit;
+}
