@@ -20,4 +20,5 @@
   justify-content: center;
   display: flex;
   align-items: center;
+  align-self: end;
 }

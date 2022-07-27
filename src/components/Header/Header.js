@@ -16,31 +16,43 @@ const Header = () => {
         </Col>
         <Col className={classes.col}>
           <div className={classes.arrangement}>
-            {JourneyArr.map(ele => {
+            {JourneyArr.map((ele, index) => {
               return (
-                <LetterOscillator className={classes.letterStyle} char={ele} />
+                <LetterOscillator
+                  key={index}
+                  className={classes.letterStyle}
+                  char={ele}
+                />
               )
             })}
           </div>
         </Col>
         <Col className={classes.col}>
           <div className={classes.arrangement}>
-            {ProjectsArr.map(ele => {
-              return <LetterOscillator char={ele} />
+            {ProjectsArr.map((ele, index) => {
+              return <LetterOscillator key={index} char={ele} />
             })}
           </div>
         </Col>
         <Col className={classes.col}>
           <div className={classes.arrangement}>
-            {AboutArr.map(ele => {
+            {AboutArr.map((ele, index) => {
               return (
-                <LetterOscillator className={classes.letterStyle} char={ele} />
+                <LetterOscillator
+                  key={index}
+                  className={classes.letterStyle}
+                  char={ele}
+                />
               )
             })}
             &nbsp;
-            {MeArr.map(ele => {
+            {MeArr.map((ele, index) => {
               return (
-                <LetterOscillator className={classes.letterStyle} char={ele} />
+                <LetterOscillator
+                  key={index}
+                  className={classes.letterStyle}
+                  char={ele}
+                />
               )
             })}
           </div>

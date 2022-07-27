@@ -1,6 +1,18 @@
+.growthCard {
+  /* padding: 1vh 5vw; */
+  padding: 1vh 1vw;
+  margin-bottom: 1vh;
+  width: 95%;
+  height: 120vh;
+  margin: 3vh auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+}
 .blink {
   color: black;
-  font-size: 1rem;
+  font-size: 3rem;
   animation-name: blinkAnimation;
   animation-duration: 2000ms;
   animation-iteration-count: infinite;
@@ -8,6 +20,7 @@
   text-shadow: 0px 0px 7px black;
 }
 .joint {
+  
 }
 @keyframes blinkAnimation {
   30% {

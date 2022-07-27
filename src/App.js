@@ -5,12 +5,14 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import { Fragment } from 'react'
 import Content from './components/Growth/Growth'
+import ContentGraph from './components/ContentGraph/ContentGraph'
 function App () {
   return (
     <Fragment>
       <Container fluid={true} className={classes.container}>
         <Header />
         <Content />
+        <ContentGraph/>
         <Footer />
       </Container>
     </Fragment>
