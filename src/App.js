@@ -6,6 +6,7 @@ import Footer from './components/Footer/Footer'
 import { Fragment } from 'react'
 import Content from './components/Growth/Growth'
 import ContentGraph from './components/ContentGraph/ContentGraph'
+import Projects from './components/Projects/Projects'
 function App () {
   return (
     <Fragment>
@@ -13,6 +14,7 @@ function App () {
         <Header />
         <Content />
         <ContentGraph/>
+        <Projects/>
         <Footer />
       </Container>
     </Fragment>

@@ -3,7 +3,7 @@
   padding: 1vh 1vw;
   margin-bottom: 1vh;
   width: 95%;
-  height: 120vh;
+  height: fit-content;
   margin: 3vh auto;
   background-color: white;
   display: flex;

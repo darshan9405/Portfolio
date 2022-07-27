@@ -1,0 +1,32 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.projects h3 {
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 1vh auto;
+}
+.projectGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  margin: 1vh auto;
+  padding: 1vh 1vw;
+  max-width: 60%;
+  border: 2px solid #efefef;
+  box-shadow: 0px 0px 5px #efefef;
+  border-radius: 10px;
+  max-height: 35vh;
+}
+.projectCard p {
+  color: rgb(186, 184, 184);
+  font-size: 1.2rem;
+  margin:1vh 1vw;
+  padding:1vh 1vw;
+}
