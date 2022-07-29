@@ -7,14 +7,16 @@ import { Fragment } from 'react'
 import Content from './components/Growth/Growth'
 import ContentGraph from './components/ContentGraph/ContentGraph'
 import Projects from './components/Projects/Projects'
+import Skills from './components/Skills/Skills'
 function App () {
   return (
     <Fragment>
       <Container fluid={true} className={classes.container}>
         <Header />
         <Content />
-        <ContentGraph/>
-        <Projects/>
+        <Skills />
+        <ContentGraph />
+        <Projects />
         <Footer />
       </Container>
     </Fragment>

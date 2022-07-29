@@ -73,4 +73,5 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  height: fit-content;
 }
