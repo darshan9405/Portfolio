@@ -15,28 +15,10 @@ const Skills = () => {
   return (
     <div className={classes.skillContainer}>
       <h3 className={classes.header}>Skills</h3>
+      <br/>
       <div className={classes.devContainer}>
         <div className={classes.languages}>
-          <h4 style={{ margin: '2vh auto' }}>Web Development</h4>
-          <p>Front End</p>
-          <div className={classes.imgContainer}>
-            <img className={classes.img} src={html} />
-            <img className={classes.img} src={css} />
-            <img className={classes.img} src={js} />
-          </div>
           <br />
-          <p>Framework</p>
-          <div className={classes.imgContainer}>
-            <img className={classes.img} src={rt} />
-            <img className={classes.img} src={bs} />
-          </div>
-          <br />
-          <p>Back End</p>
-          <div className={classes.imgContainer}>
-            <img className={classes.img} src={node} />
-          </div>
-        </div>
-        <div className={classes.languages}>
           <h4 style={{ margin: '2vh auto' }}>Languages</h4>
           <div className={classes.imgContainer}>
             <img className={classes.img} src={cpp} />
@@ -53,6 +35,27 @@ const Skills = () => {
           <div className={classes.imgContainer}>
             <img className={classes.img} src={mongo} />
             <img className={classes.img} src={mysql} />
+          </div>
+        </div>
+        <div className={classes.languages}>
+          <br />
+          <h4 style={{ margin: '2vh auto' }}>Web Development</h4>
+          {/* <p>Front End</p> */}
+          <div className={classes.imgContainer}>
+            <img className={classes.img} src={html} />
+            <img className={classes.img} src={css} />
+            <img className={classes.img} src={js} />
+          </div>
+          <br />
+          <p>Back End</p>
+          <div className={classes.imgContainer}>
+            <img className={classes.img} src={node} />
+          </div>
+          <br />
+          <p>Framework</p>
+          <div className={classes.imgContainer}>
+            <img className={classes.img} src={rt} />
+            <img className={classes.img} src={bs} />
           </div>
         </div>
       </div>

@@ -20,7 +20,13 @@ const Growth = () => {
             <br />
             happy and excited to work with new minds and exchange thoughts...
           </p>
-          <Button className={classes.btn}>Let's Connect !</Button>
+          <Button
+            className={classes.btn}
+            href={'https://www.linkedin.com/in/bhandari-darshan'}
+            target='__blank'
+          >
+            Let's Connect !
+          </Button>
         </div>
       </div>
       <div className={classes.itemdiv1}>

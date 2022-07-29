@@ -2,7 +2,7 @@ import classes from './Header.module.css'
 import { Col, Row } from 'react-bootstrap'
 import { Fragment } from 'react'
 import LetterOscillator from '../../Helpers/LettersFunctions/LetterOscillator'
-import logo from '../../images/logo.png'
+import logo from '../../images/sign.png'
 const Header = () => {
   const JourneyArr = 'JOURNEY'.split('')
   const AboutArr = 'ABOUT'.split('')

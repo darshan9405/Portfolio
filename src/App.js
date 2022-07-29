@@ -8,15 +8,19 @@ import Content from './components/Growth/Growth'
 import ContentGraph from './components/ContentGraph/ContentGraph'
 import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
+import WorkExperience from './components/WorkExperience/WorkExperience'
+import RatingCer from './components/RatingAndCerti/RatingCer'
 function App () {
   return (
     <Fragment>
       <Container fluid={true} className={classes.container}>
         <Header />
         <Content />
-        <Skills />
         <ContentGraph />
+        <Skills />
         <Projects />
+        <WorkExperience/>
+        <RatingCer/>
         <Footer />
       </Container>
     </Fragment>
