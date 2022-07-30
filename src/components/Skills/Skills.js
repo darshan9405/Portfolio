@@ -15,7 +15,6 @@ const Skills = () => {
       <h2 className={classes.header}>Skills</h2>
       <div className={classes.devContainer}>
         <div className={classes.languages}>
-          <br />
           <h4 style={{ margin: '2vh auto' }}>Languages</h4>
           <div className={classes.imgContainer}>
             <img className={classes.img} alt={'Not found!'} src={cpp} />
