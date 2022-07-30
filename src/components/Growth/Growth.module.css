@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 .growthCard {
   padding: 1vh 1vw;
   margin-bottom: 1vh;
@@ -29,10 +30,11 @@
   font-weight: 600;
   margin: 1vh 1vw;
   width: fit-content;
-  padding: 2vh 2vw;
+  padding: 1.5vh 1.5vw;
   border: 2px solid #00d09c !important;
   float: left;
   box-shadow: inset 0 3px 5px #00d09c !important;
+  font-family: "Inter", sans-serif;
 }
 .btn:hover,
 .btn:checked,
@@ -97,7 +99,7 @@
 @media screen and (max-width: 900px) {
   .lefttriangle {
     flex-direction: column;
-    height: fit-content;
+    height: 40%;
     margin: 1vh 1vw;
     justify-content: center;
     align-items: center;
@@ -113,9 +115,16 @@
     align-items: center;
   }
   .growthCard {
-    height: fit-content;
+    /* height: fit-content; */
   }
-  .itemdiv1{
+  .itemdiv1 {
     display: none;
+  }
+  .lefttriangle {
+    flex-direction: column;
+    height: fit-content;
+    margin: 1vh 1vw;
+    justify-content: center;
+    align-items: center;
   }
 }

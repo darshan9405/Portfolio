@@ -27,3 +27,7 @@
     display: flex;
     flex-direction: column;
 }
+.itemdiv1 {
+  margin: 1vh 1vw;
+  height: 50vh;
+}

@@ -1,6 +1,9 @@
 import classes from './NavigationBar.module.css'
 import { Col, Row } from 'react-bootstrap'
 import LetterOscillator from '../../Helpers/LettersFunctions/LetterOscillator'
+import data from '../../Helpers/Graph/GraphData'
+import PointGenerator from '../../Helpers/Graph/PointsGenerator'
+import 'charts.css'
 const NavigationBar = props => {
   const JourneyArr = 'JOURNEY'.split('')
   const ProjectsArr = 'PROJECTS'.split('')
@@ -58,6 +61,17 @@ const NavigationBar = props => {
             )
           })}
         </a>
+      </Row>
+      <Row>
+        <div className={classes.itemdiv1}>
+          <table className='charts-css line' id='my-chart'>
+            <tbody>
+              {data.map((ele, index) => {
+                return <PointGenerator key={index} array={ele} index={index} />
+              })}
+            </tbody>
+          </table>
+        </div>
       </Row>
     </Col>
   )

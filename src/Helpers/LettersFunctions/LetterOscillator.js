@@ -8,7 +8,7 @@ const LetterOscillator = props => {
       setTimeout(() => {
         var nxtChar = renderChar.charCodeAt(0) + 1
         setRenderChar(String.fromCharCode(nxtChar))
-      }, 90)
+      }, 85)
     }
   }, [renderChar, arrChar])
   return (
