@@ -61,8 +61,8 @@ h2 {
   box-shadow: 0px 0px 5px #efefef;
   border-radius: 10px;
   display: flex;
-  max-width: 45vw;
-  min-width: 45vw;
+  max-width: 50vw;
+  min-width: 50vw;
 }
 .contentGraph {
   display: flex;
@@ -72,7 +72,8 @@ h2 {
   text-align: center;
   height: fit-content;
 }
-@media screen and (max-width: 900px) {
+
+@media screen and (max-width: 940px) {
   .line {
     height: 40vh;
   }
@@ -80,7 +81,8 @@ h2 {
     justify-content: flex-start;
   }
   .card {
-    max-width: 90vw;
+    max-width: 80vw;
+    min-width: 80vw;
   }
 }
 

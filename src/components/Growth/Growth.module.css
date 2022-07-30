@@ -96,13 +96,14 @@
     transform: translatey(0px);
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 940px) {
   .lefttriangle {
     flex-direction: column;
     height: 40%;
     margin: 1vh 1vw;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .resumeData h3 {
     align-items: center;

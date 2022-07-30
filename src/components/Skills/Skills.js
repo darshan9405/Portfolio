@@ -35,7 +35,6 @@ const Skills = () => {
           </div>
         </div>
         <div className={classes.languages}>
-          <br />
           <h4 style={{ margin: '2vh auto' }}>Web Development</h4>
           {/* <p>Front End</p> */}
           <div className={classes.imgContainer}>
