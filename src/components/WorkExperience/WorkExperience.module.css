@@ -38,13 +38,6 @@
   margin: 1vh 1vw;
   padding: 1vh 1vw;
 }
-.projectCard li {
-  color: rgb(186, 184, 184);
-  font-size: 1.2rem;
-  margin: 1vh 1vw;
-  padding: 1vh 1vw;
-  list-style-type: disc;
-}
 .btn {
   background-color: #00d09c !important;
   color: white;

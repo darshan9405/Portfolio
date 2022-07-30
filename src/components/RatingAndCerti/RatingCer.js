@@ -19,10 +19,12 @@ const RatingCer = () => {
               }
               target='__blank'
             >
-              <img className={classes.img} src={int}></img>
+              <img className={classes.img} alt={'Not found!'} src={int}></img>
             </a>
           </div>
-          <p style={{textAlign:'center'}}>Mastering Data Structures & Algorithms using C and C++</p>
+          <p style={{ textAlign: 'center' }}>
+            Mastering Data Structures & Algorithms using C and C++
+          </p>
           <br />
           <div className={classes.ratingDiv}>
             <div className={classes.ratingContainer}>
@@ -31,15 +33,17 @@ const RatingCer = () => {
                   href={'https://www.codechef.com/users/darshan_9405'}
                   target='__blank'
                 >
-                  <img className={classes.img} src={cc}></img>
+                  <img
+                    className={classes.img}
+                    alt={'Not found!'}
+                    src={cc}
+                  ></img>
                 </a>
               </div>
-              <p>
-                <ul>
-                  <li>Highest rating of 1852</li>
-                  <li>Solved 200+ problems</li>
-                </ul>
-              </p>
+              <ul>
+                <li>Highest rating of 1852</li>
+                <li>Solved 200+ problems</li>
+              </ul>
             </div>
             <div className={classes.ratingContainer}>
               <div className={classes.imgDiv}>
@@ -47,15 +51,17 @@ const RatingCer = () => {
                   href={'https://codeforces.com/profile/Darshan_9405'}
                   target='__blank'
                 >
-                  <img className={classes.img} src={cf}></img>
+                  <img
+                    className={classes.img}
+                    alt={'Not found!'}
+                    src={cf}
+                  ></img>
                 </a>
               </div>
-              <p>
-                <ul>
-                  <li>Highest Rating of 1091</li>
-                  <li>Solved 90+ Problems</li>
-                </ul>
-              </p>
+              <ul>
+                <li>Highest Rating of 1091</li>
+                <li>Solved 90+ Problems</li>
+              </ul>
             </div>
             <br />
           </div>

@@ -17,18 +17,16 @@ const WorkExperience = () => {
               }
               target='__blank'
             >
-              <img className={classes.img} src={int}></img>
+              <img className={classes.img} alt={'Not found!'} src={int}></img>
             </a>
           </div>
-          <p>
-            <ul>
-              <li>
-                Worked for 2 months as web development intern at Act T Connect
-                (P) Ltd.
-              </li>
-              <li>Used MERN stack for developing recruitment website.</li>
-            </ul>
-          </p>
+          <ul>
+            <li>
+              Worked for 2 months as web development intern at Act T Connect (P)
+              Ltd.
+            </li>
+            <li>Used MERN stack for developing recruitment website.</li>
+          </ul>
         </div>
       </div>
     </div>

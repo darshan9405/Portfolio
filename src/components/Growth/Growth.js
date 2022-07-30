@@ -15,7 +15,7 @@ const Growth = () => {
         </div>
         <div className={classes.resumeData}>
           <h3>Darshan Bhandari</h3>
-          <p>
+          <ul>
             <li>
               Highly passionate to explore and gain the real experience out of
               things.
@@ -30,7 +30,7 @@ const Growth = () => {
               Excited about working with new minds and experience the
               unexperienced...
             </li>
-          </p>
+          </ul>
           <Button
             className={classes.btn}
             href={'https://www.linkedin.com/in/bhandari-darshan'}

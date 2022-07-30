@@ -18,20 +18,21 @@ const Skills = () => {
           <br />
           <h4 style={{ margin: '2vh auto' }}>Languages</h4>
           <div className={classes.imgContainer}>
-            <img className={classes.img} src={cpp} />
-            <img className={classes.img} src={python} />
-            <img className={classes.img} src={java} />
+            <img className={classes.img} alt={'Not found!'} src={cpp} />
+            <img className={classes.img} alt={'Not found!'} src={python} />
+            <img className={classes.img} alt={'Not found!'} src={java} />
           </div>
           <br />
+          <br/>
           <h4 style={{ margin: '2vh auto' }}>App Development</h4>
           <div className={classes.imgContainer}>
-            <img className={classes.img} src={flutter} />
+            <img className={classes.img} alt={'Not found!'} src={flutter} />
           </div>
           <br />
           <h4 style={{ margin: '2vh auto' }}>Database</h4>
           <div className={classes.imgContainer}>
-            <img className={classes.img} src={mongo} />
-            <img className={classes.img} src={mysql} />
+            <img className={classes.img} alt={'Not found!'} src={mongo} />
+            <img className={classes.img} alt={'Not found!'} src={mysql} />
           </div>
         </div>
         <div className={classes.languages}>
@@ -42,21 +43,22 @@ const Skills = () => {
             <img
               className={classes.img}
               style={{ height: '150px' }}
+              alt={'Not found!'}
               src={hcj}
             />
             {/* <img className={classes.img} src={css} />
             <img className={classes.img} src={js} /> */}
           </div>
           <br />
-          <h3>Back End</h3>
+          <h4>Back End</h4>
           <div className={classes.imgContainer}>
-            <img className={classes.img} src={node} />
+            <img className={classes.img} alt={'Not found!'} src={node} />
           </div>
           <br />
-          <h3>Framework</h3>
+          <h4>Framework</h4>
           <div className={classes.imgContainer}>
-            <img className={classes.img} src={rt} />
-            <img className={classes.img} src={bs} />
+            <img className={classes.img} alt={'Not found!'} src={rt} />
+            <img className={classes.img} alt={'Not found!'} src={bs} />
           </div>
         </div>
       </div>

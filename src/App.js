@@ -13,6 +13,7 @@ import RatingCer from './components/RatingAndCerti/RatingCer'
 import NavigationBar from './components/Navigation/NavigationBar'
 function App () {
   const [isOpen, setOpen] = useState(false)
+
   return (
     <Fragment>
       <Container fluid={true} className={classes.container}>

@@ -12,9 +12,9 @@ const Projects = () => {
           <h3>Smart Helmet</h3>
           <br />
           <div className={classes.imgContainer}>
-            <img className={classes.img} src={sh} />
+            <img className={classes.img} alt={'Not found!'} src={sh} />
           </div>
-          <p>
+          <ul>
             <li>Developed a smart helmet using Arduino uno r3.</li>
             <li>
               Motive was to restrict the rider from driving without wearing a
@@ -24,7 +24,7 @@ const Projects = () => {
               Used MQ3 Alcohol Sensor to detect for the consciousness of the
               rider.
             </li>
-          </p>
+          </ul>
         </div>
         <div className={classes.projectCard}>
           <h3>Mark My Views</h3>
@@ -41,9 +41,9 @@ const Projects = () => {
                 one-by-one which eventually is time consuming.
               </li>
               <li>
-                This platform will help students to compare and select the best
-                book as per their needs and reviews from other peers which
-                eventually save time.
+                This platform helps students to compare and select the best book
+                as per their needs and reviews from other peers which eventually
+                save time.
               </li>
               <li>
                 Students can post reviews for books which would help simplifying
