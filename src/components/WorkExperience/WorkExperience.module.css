@@ -68,5 +68,24 @@
 .img {
   height: 200px;
   border-radius: 20px;
-  cursor:pointer;
+  cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+  .projectCard {
+    margin: 1vh 1vw;
+    width: 90%;
+    max-width: 90%;
+  }
+  .projectGrid {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects {
+    text-align: center;
+  }
+  h2,
+  h3 {
+    text-align: center;
+  }
 }

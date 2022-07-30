@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap");
-.header-row {
-  padding: 2vh 2vw;
-  /* background-color: rgb(34, 255, 0); */
-  color: black;
-}
 .arrangement {
   display: flex;
   flex-direction: row;
@@ -19,37 +14,16 @@
 .arrangement::selection {
   color: #00f9bb;
 }
-.imgStyle {
-  width: 30%;
-  height: inherit;
-}
-
 .col {
   justify-content: center;
   display: flex;
   align-items: center;
   align-self: end;
+  margin:1vh 1vw;
+  align-items: center;
 }
-.mobileView {
-  padding: 2vh 2vw;
-}
-@media screen and (min-width: 900px) {
-  .mobileView {
-    display: none;
-  }
-  .header-row {
+.mobileCol{
+    text-align: center;
     display: flex;
-  }
-}
-@media screen and (max-width: 900px) {
-  .header-row {
-    display: none;
-  }
-  .mobileView {
-    display: flex;
-  }
-}
-.mobileViewImg {
-  width: inherit;
-  height: inherit;
+    flex-direction: column;
 }

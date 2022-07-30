@@ -26,7 +26,7 @@ const WorkExperience = () => {
                 Worked for 2 months as web development intern at Act T Connect
                 (P) Ltd.
               </li>
-              <li>Used MERN stack for developing recuritment website.</li>
+              <li>Used MERN stack for developing recruitment website.</li>
             </ul>
           </p>
         </div>

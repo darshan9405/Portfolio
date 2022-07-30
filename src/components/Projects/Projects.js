@@ -1,8 +1,9 @@
 import classes from './Projects.module.css'
 import { Button } from 'react-bootstrap'
+import sh from '../../images/sh.png'
 const Projects = () => {
   return (
-    <div className={classes.projects}>
+    <div className={classes.projects} id={'projects'}>
       <h2 style={{ fontSize: '2.5rem' }}>Projects</h2>
       <br />
       <br />
@@ -10,10 +11,19 @@ const Projects = () => {
         <div className={classes.projectCard}>
           <h3>Smart Helmet</h3>
           <br />
+          <div className={classes.imgContainer}>
+            <img className={classes.img} src={sh} />
+          </div>
           <p>
-            Developed a smart helmet using Arduino uno r3 which helped the rider
-            to alert if he has not worn the helmet and also if the rider is
-            drunk.
+            <li>Developed a smart helmet using Arduino uno r3.</li>
+            <li>
+              Motive was to restrict the rider from driving without wearing a
+              Helmet or without him being in conscious condition.
+            </li>
+            <li>
+              Used MQ3 Alcohol Sensor to detect for the consciousness of the
+              rider.
+            </li>
           </p>
         </div>
         <div className={classes.projectCard}>

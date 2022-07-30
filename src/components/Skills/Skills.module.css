@@ -50,3 +50,18 @@
   /* align-items: center; */
   margin: 1vh auto;
 }
+@media screen and (max-width: 900px) {
+  .devContainer{
+    flex-direction: column;
+  }
+  .languages{
+    width: 100vw;
+    text-align: center;
+  }
+  .languages h4{
+    width: fit-content;
+  }
+  .img{
+    margin:1vh 2.5vw;
+  }
+}

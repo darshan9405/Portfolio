@@ -16,9 +16,20 @@ const Growth = () => {
         <div className={classes.resumeData}>
           <h3>Darshan Bhandari</h3>
           <p>
-            Passionate to explore and gain the real experience out of things,
-            <br />
-            happy and excited to work with new minds and exchange thoughts...
+            <li>
+              Highly passionate to explore and gain the real experience out of
+              things.
+            </li>
+            {/* <br /> */}
+            <li>
+              Growth mindset which constantly motivates me to learn and try out
+              things.
+            </li>
+            {/* <br /> */}
+            <li>
+              Excited about working with new minds and experience the
+              unexperienced...
+            </li>
           </p>
           <Button
             className={classes.btn}

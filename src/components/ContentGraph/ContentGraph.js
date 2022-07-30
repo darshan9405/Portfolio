@@ -1,8 +1,8 @@
 import classes from './ContentGraph.module.css'
 const ContentGraph = () => {
   return (
-    <div className={classes.contentGraph}>
-      <h2 style={{fontSize:'2.5rem'}}>Journey</h2>
+    <div className={classes.contentGraph} id={'journey'}>
+      <h2 style={{ fontSize: '2.5rem' }}>Journey</h2>
       <br />
       <br />
       <div className={classes.growthCard}>

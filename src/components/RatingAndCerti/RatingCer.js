@@ -22,7 +22,7 @@ const RatingCer = () => {
               <img className={classes.img} src={int}></img>
             </a>
           </div>
-          <p>Mastering Data Structures & Algorithms using C and C++</p>
+          <p style={{textAlign:'center'}}>Mastering Data Structures & Algorithms using C and C++</p>
           <br />
           <div className={classes.ratingDiv}>
             <div className={classes.ratingContainer}>
@@ -61,6 +61,7 @@ const RatingCer = () => {
           </div>
         </div>
       </div>
+      <br />
     </div>
   )
 }

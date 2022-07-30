@@ -14,8 +14,7 @@ import flutter from '../../images/flutter.png'
 const Skills = () => {
   return (
     <div className={classes.skillContainer}>
-      <h3 className={classes.header}>Skills</h3>
-      <br/>
+      <h2 className={classes.header}>Skills</h2>
       <div className={classes.devContainer}>
         <div className={classes.languages}>
           <br />
