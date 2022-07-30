@@ -5,7 +5,7 @@ import LetterOscillator from '../../Helpers/LettersFunctions/LetterOscillator'
 import logo from '../../images/sign.png'
 import Hamburger from 'hamburger-react'
 const Header = props => {
-  const JourneyArr = 'JOURNEY'.split('')
+  const AcademicsArr = 'ACADEMICS'.split('')
   const ProjectsArr = 'PROJECTS'.split('')
   const gitArr = 'GITHUB'.split('')
 
@@ -16,8 +16,8 @@ const Header = props => {
           <img className={classes.imgStyle} src={logo} alt={'Not found!'} />
         </Col>
         <Col className={classes.col}>
-          <a href={'#journey'} className={classes.arrangement}>
-            {JourneyArr.map((ele, index) => {
+          <a href={'#Academics'} className={classes.arrangement}>
+            {AcademicsArr.map((ele, index) => {
               return (
                 <LetterOscillator
                   key={index}

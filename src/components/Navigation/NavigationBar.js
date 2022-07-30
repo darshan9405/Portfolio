@@ -5,20 +5,20 @@ import data from '../../Helpers/Graph/GraphData'
 import PointGenerator from '../../Helpers/Graph/PointsGenerator'
 import 'charts.css'
 const NavigationBar = props => {
-  const JourneyArr = 'JOURNEY'.split('')
+  const AcademicsArr = 'ACADEMICS'.split('')
   const ProjectsArr = 'PROJECTS'.split('')
   const gitArr = 'GITHUB'.split('')
   return (
     <Col className={classes.mobileCol}>
       <Row className={classes.col}>
         <a
-          href={'#journey'}
+          href={'#Academics'}
           onClick={() => {
             props.setOpen(false)
           }}
           className={classes.arrangement}
         >
-          {JourneyArr.map((ele, index) => {
+          {AcademicsArr.map((ele, index) => {
             return (
               <LetterOscillator
                 key={index}
