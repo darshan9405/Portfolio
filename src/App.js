@@ -11,8 +11,22 @@ import Skills from './components/Skills/Skills'
 import WorkExperience from './components/WorkExperience/WorkExperience'
 import RatingCer from './components/RatingAndCerti/RatingCer'
 import NavigationBar from './components/Navigation/NavigationBar'
+import ScreenToggler from './components/screenToggler/screenToggler'
 function App () {
   const [isOpen, setOpen] = useState(false)
+  const [toggleUp,setToggleUp] = useState(false)
+  window.addEventListener('scroll',()=>{
+    if(window.scrollY && toggleUp == false){
+      setToggleUp(true);
+    }
+    else if(window.scrollY===0 && !toggleUp){
+      setToggleUp(false);
+    }
+  })
+
+  const toggleHandlerOnclick=()=>{
+    window.scrollTo(0,0);
+  }
 
   return (
     <Fragment>
@@ -28,6 +42,7 @@ function App () {
             <WorkExperience />
             <RatingCer />
             <Footer />
+            {toggleUp && <ScreenToggler toggleHandler={toggleHandlerOnclick}/>}
           </Fragment>
         )}
       </Container>
