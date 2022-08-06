@@ -6,6 +6,7 @@
   width: 100%;
   margin: 3vh auto;
   height: fit-content;
+  /* background-color: transparent; */
 }
 .languages {
   display: flex;

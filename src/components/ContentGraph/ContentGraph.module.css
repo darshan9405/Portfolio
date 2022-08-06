@@ -9,7 +9,7 @@ h2 {
   width: 95%;
   height: fit-content;
   margin: 3vh auto;
-  background-color: white;
+  /* background-color: white; */
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -54,7 +54,7 @@ h2 {
 }
 .card {
   margin: 3vh 1vw;
-  padding: 1vh 2vw;
+  padding: 2vh 2vw;
   align-items: center;
   font-size: 1.2rem;
   border: 2px solid #efefef;

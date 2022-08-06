@@ -1,11 +1,17 @@
 import classes from './ContentGraph.module.css'
-const ContentGraph = () => {
+const ContentGraph = props => {
   return (
-    <div className={classes.contentGraph} id={'Academics'}>
+    <div className={`${classes.contentGraph}`} id={'Academics'}>
       <h2 style={{ fontSize: '2.5rem' }}>Academics</h2>
       <br />
       <br />
-      <div className={classes.growthCard}>
+      <div
+        className={`${classes.growthCard}`}
+        style={{
+          position: 'relative',
+          left: `${100 - props.percentage >= 0 ? 100 - props.percentage : 0}%`
+        }}
+      >
         <div className={classes.graphDiv}>
           <div className={`${classes.graph}`} id='graph1'>
             <span className={classes.blink}>•</span>

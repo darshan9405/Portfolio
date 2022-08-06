@@ -1,14 +1,17 @@
-.togglerDiv{
-    position: fixed;
-    bottom: 15vh;
-    right: 1vw;
-    display: flex;
-    z-index: 1;
+.togglerDiv {
+  position: fixed;
+  bottom: 15vh;
+  right: 1vw;
+  display: flex;
+  z-index: 1;
 }
-.upBtn{
-    width: 50px;
-    height: 50px;
+.upBtn {
+  width: 50px;
+  height: 50px;
 }
-.upBtn:active{
-    transform: translateY(2px);
+.upBtn:active {
+  transform: translateY(2px);
+}
+.upBtn:hover {
+  transform: scale(1.1, 1.1);
 }
