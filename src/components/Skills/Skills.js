@@ -1,4 +1,5 @@
 import classes from './Skills.module.css'
+import Carousel from 'react-bootstrap/Carousel'
 import java from '../../images/java.png'
 import python from '../../images/python.png'
 import cpp from '../../images/cpp.png'
@@ -13,53 +14,57 @@ const Skills = () => {
   return (
     <div className={classes.skillContainer}>
       <h2 className={classes.header}>Skills</h2>
-      <div className={classes.devContainer}>
-        <div className={classes.languages}>
-          <h4 style={{ margin: '2vh auto' }}>Languages</h4>
+      <Carousel variant='dark' interval={1000} className={classes.imgSlider}>
+        <Carousel.Item className={classes.silderContainer}>
           <div className={classes.imgContainer}>
-            <img className={classes.img} alt={'Not found!'} src={cpp} />
-            <img className={classes.img} alt={'Not found!'} src={python} />
-            <img className={classes.img} alt={'Not found!'} src={java} />
+            <img className={classes.img} src={python} alt='First slide' />
+            <img className={classes.img} src={cpp} alt='First slide' />
+            <img className={classes.img} src={java} alt='First slide' />
           </div>
           <br />
-          <br/>
-          <h4 style={{ margin: '2vh auto' }}>App Development</h4>
+          <br />
+          <h5 className={classes.Caption}>Languages</h5>
+        </Carousel.Item>
+        <Carousel.Item className={classes.silderContainer}>
           <div className={classes.imgContainer}>
-            <img className={classes.img} alt={'Not found!'} src={flutter} />
+            <img className={classes.img} src={hcj} alt='First slide' />
+          </div>
+          <p className={classes.Caption}>Front End</p>
+          <h5 className={classes.Caption}>Web Development</h5>
+        </Carousel.Item>
+        <Carousel.Item className={classes.silderContainer}>
+          <div className={classes.imgContainer}>
+            <img className={classes.img} src={node} alt='First slide' />
+          </div>
+          <p className={classes.Caption}>Back End</p>
+          <h5 className={classes.Caption}>Web Development</h5>
+        </Carousel.Item>
+        <Carousel.Item className={classes.silderContainer}>
+          <div className={classes.imgContainer}>
+            <img className={classes.img} src={rt} alt='First slide' />
+            <img className={classes.img} src={bs} alt='First slide' />
+          </div>
+          <p className={classes.Caption}>Framework</p>
+          <h5 className={classes.Caption}>Web Development</h5>
+        </Carousel.Item>
+        <Carousel.Item className={classes.silderContainer}>
+          <div className={classes.imgContainer}>
+            <img className={classes.img} src={flutter} alt='First slide' />
           </div>
           <br />
-          <h4 style={{ margin: '2vh auto' }}>Database</h4>
+          <br />
+          <h5 className={classes.Caption}>App Development</h5>
+        </Carousel.Item>
+        <Carousel.Item className={classes.silderContainer}>
           <div className={classes.imgContainer}>
-            <img className={classes.img} alt={'Not found!'} src={mongo} />
-            <img className={classes.img} alt={'Not found!'} src={mysql} />
-          </div>
-        </div>
-        <div className={classes.languages}>
-          <h4 style={{ margin: '2vh auto' }}>Web Development</h4>
-          {/* <p>Front End</p> */}
-          <div className={classes.imgContainer}>
-            <img
-              className={classes.img}
-              style={{ height: '150px' }}
-              alt={'Not found!'}
-              src={hcj}
-            />
-            {/* <img className={classes.img} src={css} />
-            <img className={classes.img} src={js} /> */}
+            <img className={classes.img} src={mysql} alt='First slide' />
+            <img className={classes.img} src={mongo} alt='First slide' />
           </div>
           <br />
-          <h4>Back End</h4>
-          <div className={classes.imgContainer}>
-            <img className={classes.img} alt={'Not found!'} src={node} />
-          </div>
           <br />
-          <h4>Framework</h4>
-          <div className={classes.imgContainer}>
-            <img className={classes.img} alt={'Not found!'} src={rt} />
-            <img className={classes.img} alt={'Not found!'} src={bs} />
-          </div>
-        </div>
-      </div>
+          <h5 className={classes.Caption}>Database</h5>
+        </Carousel.Item>
+      </Carousel>
     </div>
   )
 }
