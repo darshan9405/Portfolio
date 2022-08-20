@@ -9,7 +9,7 @@ const ContentGraph = props => {
         className={`${classes.growthCard}`}
         style={{
           position: 'relative',
-          left: `${100 - props.percentage >= 0 ? 100 - props.percentage : 0}%`
+          left: `${80 - props.percentage >= 0 ? 80 - props.percentage : 0}%`
         }}
       >
         <div className={classes.graphDiv}>

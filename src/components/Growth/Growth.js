@@ -15,19 +15,19 @@ const Growth = () => {
         </div>
         <div className={classes.resumeData}>
           <h3>Darshan Bhandari</h3>
-          <ul>
+          <ul style={{ marginTop: '1vh' }}>
             <li>
-              Highly passionate to explore and gain the real experience out of
-              things.
+              Passionate to explore and gain, real experiences out of things
             </li>
             {/* <br /> */}
+            <li>Aspired to become a better version of myself</li>
             <li>
               Growth mindset which constantly motivates me to learn and try out
-              things.
+              things
             </li>
             {/* <br /> */}
             <li>
-              Excited about working with new minds and experience the
+              Excited for working with new minds and experience the
               unexperienced...
             </li>
           </ul>
@@ -38,6 +38,26 @@ const Growth = () => {
           >
             Let's Connect !
           </Button>
+        </div>
+        <div
+          style={{
+            margin: '1vh 1vw',
+            padding: '1vh 1vw',
+            display: 'flex',
+            flexDirection: 'column',
+            alignSelf: 'start',
+            justifyContent:'center'
+          }}
+        >
+          <h3 style={{ color: 'black', margin: '1vh 1vw' ,fontWeight:"600",textAlign:"start"}}>Interested in...</h3>
+          <ul>
+            <li>Development</li>
+            {/* <br /> */}
+            <li>Competative Programming</li>
+            <li>Content Writing</li>
+            {/* <br /> */}
+            <li>Investing</li>
+          </ul>
         </div>
       </div>
       <div className={classes.itemdiv1}>

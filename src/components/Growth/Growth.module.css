@@ -15,7 +15,7 @@
 .lefttriangle {
   height: 40%;
   color: white;
-  width: fit-content;
+  width: 95%;
   clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 0);
   font-size: 4rem;
   display: flex;
