@@ -49,7 +49,7 @@ const Growth = () => {
             justifyContent:'center'
           }}
         >
-          <h3 style={{ color: 'black', margin: '1vh 1vw' ,fontWeight:"600",textAlign:"start"}}>Interested in...</h3>
+          <h3 style={{ color: 'black', margin: '1vh 1vw' ,fontWeight:"600",textAlign:"start",fontSize:"1.5rem"}}>Interested in...</h3>
           <ul>
             <li>Development</li>
             {/* <br /> */}
