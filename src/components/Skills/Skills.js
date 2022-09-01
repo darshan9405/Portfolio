@@ -11,6 +11,7 @@ import mysql from '../../images/mysql.png'
 import flutter from '../../images/flutter.png'
 import hcj from '../../images/hcj.png'
 import firebase from '../../images/firebase.png'
+import next from '../../images/next.png'
 const Skills = () => {
   return (
     <div className={classes.skillContainer}>
@@ -38,6 +39,13 @@ const Skills = () => {
             <img className={classes.img} src={node} alt='First slide' />
           </div>
           <p className={classes.Caption}>Back End</p>
+          <h5 className={classes.Caption}>Web Development</h5>
+        </Carousel.Item>
+        <Carousel.Item className={classes.silderContainer}>
+          <div className={classes.imgContainer}>
+            <img className={classes.img} src={next} alt='First slide' />
+          </div>
+          <p className={classes.Caption}>Full Stack React Framework</p>
           <h5 className={classes.Caption}>Web Development</h5>
         </Carousel.Item>
         <Carousel.Item className={classes.silderContainer}>
