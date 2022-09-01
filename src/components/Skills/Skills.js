@@ -16,7 +16,7 @@ const Skills = () => {
   return (
     <div className={classes.skillContainer}>
       <h2 className={classes.header}>Skills</h2>
-      <Carousel variant='dark' interval={1000} className={classes.imgSlider}>
+      <Carousel variant='dark' interval={1000} className={classes.imgSlider} >
         <Carousel.Item className={classes.silderContainer}>
           <div className={classes.imgContainer}>
             <img className={classes.img} src={python} alt='First slide' />
@@ -42,8 +42,9 @@ const Skills = () => {
           <h5 className={classes.Caption}>Web Development</h5>
         </Carousel.Item>
         <Carousel.Item className={classes.silderContainer}>
-          <div className={classes.imgContainer}>
+          <div className={classes.imgContainer} style={{flexDirection:'column'}}>
             <img className={classes.img} src={next} alt='First slide' />
+            <br/>
           </div>
           <p className={classes.Caption}>Full Stack React Framework</p>
           <h5 className={classes.Caption}>Web Development</h5>
