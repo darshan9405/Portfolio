@@ -48,8 +48,9 @@ const Growth = () => {
             alignSelf: 'start',
             justifyContent:'center'
           }}
+          className ={classes.sidediv}
         >
-          <h3 style={{ color: 'black', margin: '1vh 1vw' ,fontWeight:"700",textAlign:"center",fontSize:"1.6rem"}}>Interested in...</h3>
+          <h3 style={{ color: 'black', margin: '1vh 1vw' ,fontWeight:"700",textAlign:"start",fontSize:"1.6rem"}}>Interested in...</h3>
           <ul>
             <li>Development</li>
             <li>Competative Programming</li>

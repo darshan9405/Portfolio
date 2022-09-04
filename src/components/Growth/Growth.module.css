@@ -128,4 +128,14 @@
     justify-content: center;
     align-items: center;
   }
+  .sidediv {
+    width: 100%;
+    /* background-color: red; */
+    text-align: center;
+    margin: auto !important;
+    display: flex;
+  }
+  .sidediv h3 {
+    text-align: center !important;
+  }
 }
