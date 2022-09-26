@@ -59,8 +59,8 @@ const RatingCer = () => {
                 </a>
               </div>
               <ul>
-                <li>Highest Rating of 1091</li>
-                <li>Solved 90+ Problems</li>
+                <li>Pupil @Codeforces</li>
+                <li>Solved 200+ Problems</li>
               </ul>
             </div>
             <br />
