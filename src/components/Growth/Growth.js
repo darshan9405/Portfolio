@@ -33,7 +33,7 @@ const Growth = () => {
           </ul>
           <Button
             className={classes.btn}
-            href={'https://www.linkedin.com/in/bhandari-darshan'}
+            href={'https://www.linkedin.com/in/darshan9405/'}
             target='__blank'
           >
             Let's Connect !
@@ -52,8 +52,8 @@ const Growth = () => {
         >
           <h3 style={{ color: 'black', margin: '1vh 1vw' ,fontWeight:"700",textAlign:"start",fontSize:"1.6rem"}}>Interested in...</h3>
           <ul>
+            <li>Programming</li>
             <li>Development</li>
-            <li>Competative Programming</li>
             <li>Creative Ideas</li>
             <li>Investing</li>
           </ul>

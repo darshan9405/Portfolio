@@ -8,6 +8,7 @@ const NavigationBar = props => {
   const AcademicsArr = 'ACADEMICS'.split('')
   const ProjectsArr = 'PROJECTS'.split('')
   const gitArr = 'GITHUB'.split('')
+  const resume = 'RESUME'.split('')
   return (
     <Col className={classes.mobileCol}>
       <Row className={classes.col}>
@@ -52,6 +53,26 @@ const NavigationBar = props => {
           }}
         >
           {gitArr.map((ele, index) => {
+            return (
+              <LetterOscillator
+                key={index}
+                className={classes.letterStyle}
+                char={ele}
+              />
+            )
+          })}
+        </a>
+      </Row>
+      <Row className={classes.col}>
+        <a
+          href={'https://drive.google.com/file/d/1oU-9ZcKBALio5CSM0Q-AZMzRpHQ6YI8V/view?usp=sharing'}
+          className={classes.arrangement}
+          target='__blank'
+          onClick={() => {
+            props.setOpen(false)
+          }}
+        >
+          {resume.map((ele, index) => {
             return (
               <LetterOscillator
                 key={index}

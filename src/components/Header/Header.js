@@ -8,7 +8,7 @@ const Header = props => {
   const AcademicsArr = 'ACADEMICS'.split('')
   const ProjectsArr = 'PROJECTS'.split('')
   const gitArr = 'GITHUB'.split('')
-
+  const resume = 'RESUME'.split('')
   return (
     <Fragment>
       <Row className={classes['header-row']}>
@@ -42,6 +42,23 @@ const Header = props => {
             target='__blank'
           >
             {gitArr.map((ele, index) => {
+              return (
+                <LetterOscillator
+                  key={index}
+                  className={classes.letterStyle}
+                  char={ele}
+                />
+              )
+            })}
+          </a>
+        </Col>
+        <Col className={classes.col}>
+          <a
+            href={'https://drive.google.com/file/d/1oU-9ZcKBALio5CSM0Q-AZMzRpHQ6YI8V/view?usp=sharing'}
+            className={classes.arrangement}
+            target='__blank'
+          >
+            {resume.map((ele, index) => {
               return (
                 <LetterOscillator
                   key={index}
