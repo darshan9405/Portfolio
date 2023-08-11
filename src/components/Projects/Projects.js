@@ -4,6 +4,7 @@ import sh from "../../images/sh.png";
 import elite from "../../images/eilte.png";
 import namma from "../../images/namma.jpg";
 import algo from "../../images/algo.jpeg";
+import phone from "../../images/phone.png";
 const Projects = () => {
   return (
     <div className={classes.projects} id={"projects"}>
@@ -24,6 +25,31 @@ const Projects = () => {
           </div>
           <Button
             href="https://www.campustimespune.com/quantquest-iitd-2023/"
+            target="__blank"
+            className={classes.btn}
+          >
+            Checkout!
+          </Button>
+        </div>
+      </div>
+      <br />
+      <h2 style={{ fontSize: "2.5rem" }}>Blogs</h2>
+      <br />
+      <div className={classes.projectGrid}>
+        <div className={classes.projectCard}>
+          <div className={classes.imgContainer}>
+            <img
+              className={classes.img}
+              style={{ width: "450px", height: "250px" }}
+              alt={"Not found!"}
+              src={phone}
+            />
+          </div>
+          <h3 style={{ textAlign: "center" }}>
+            PhonePe Interview Experience — Software Engineer (Aug 2023)
+          </h3>
+          <Button
+            href="https://medium.com/@darshanb9405/phonepe-interview-experience-software-engineer-aug-2023-25a23f02dfcc/"
             target="__blank"
             className={classes.btn}
           >
