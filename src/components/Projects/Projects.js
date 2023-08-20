@@ -33,9 +33,7 @@ const Projects = () => {
         </div>
       </div>
       <br />
-      <h2 style={{ fontSize: "2.5rem" }}>Blogs</h2>
-      <br />
-      <div className={classes.projectGrid}>
+      {/* <div className={classes.projectGrid}>
         <div className={classes.projectCard}>
           <div className={classes.imgContainer}>
             <img
@@ -57,7 +55,7 @@ const Projects = () => {
           </Button>
         </div>
       </div>
-      <br />
+      <br /> */}
       <h2 style={{ fontSize: "2.5rem" }}>Projects</h2>
       <br />
       <br />
