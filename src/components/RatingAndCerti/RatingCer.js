@@ -75,7 +75,7 @@ const RatingCer = () => {
               </div>
               <ul>
                 <li>Specialist @Codeforces</li>
-                <li>Solved 850+ Problems</li>
+                <li>Solved 950+ Problems</li>
               </ul>
             </div>
             <br />
@@ -90,7 +90,7 @@ const RatingCer = () => {
                 </a>
               </div>
               <ul>
-                <li>Knight @Leetcode - 2140</li>
+                <li>Guardian @Leetcode - 2184</li>
                 <li>Solved 500+ Problems</li>
               </ul>
             </div>
