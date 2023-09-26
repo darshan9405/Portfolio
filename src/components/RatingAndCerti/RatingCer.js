@@ -74,7 +74,7 @@ const RatingCer = () => {
                 </a>
               </div>
               <ul>
-                <li>Specialist @Codeforces</li>
+                <li>Expert @Codeforces</li>
                 <li>Solved 950+ Problems</li>
               </ul>
             </div>
