@@ -56,8 +56,8 @@ const RatingCer = () => {
                 </a>
               </div>
               <ul>
-                <li>Highest rating of 1801</li>
-                <li>Solved 300+ problems</li>
+                <li>Highest rating of 1825</li>
+                <li>Solved 335+ problems</li>
               </ul>
             </div>
             <div className={classes.ratingContainer}>
@@ -75,7 +75,7 @@ const RatingCer = () => {
               </div>
               <ul>
                 <li>Expert @Codeforces</li>
-                <li>Solved 950+ Problems</li>
+                <li>Solved 1100+ Problems</li>
               </ul>
             </div>
             <br />
@@ -90,8 +90,8 @@ const RatingCer = () => {
                 </a>
               </div>
               <ul>
-                <li>Guardian @Leetcode - 2184</li>
-                <li>Solved 500+ Problems</li>
+                <li>Guardian @Leetcode - 2200</li>
+                <li>Solved 600+ Problems</li>
               </ul>
             </div>
           </div>
