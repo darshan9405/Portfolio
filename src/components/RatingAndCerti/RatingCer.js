@@ -56,7 +56,7 @@ const RatingCer = () => {
                 </a>
               </div>
               <ul>
-                <li>Highest rating of 1825</li>
+                <li>Highest rating of 1890</li>
                 <li>Solved 335+ problems</li>
               </ul>
             </div>
